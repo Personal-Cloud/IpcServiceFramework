@@ -5,4 +5,6 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "Globalization support is not planned.")]
+[assembly: SuppressMessage("Globalization", "CA1303", Justification = "Globalization support is not planned.")]
+[assembly: SuppressMessage("Design", "CA1060", Justification = "None.")]
+[assembly: SuppressMessage("Design", "CA2000", Justification = "None.")]
